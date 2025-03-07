@@ -28,7 +28,7 @@ spec:
               protocol: TCP
           volumeMounts:
             - name: glance-config
-              mountPath: /app/glance.yml
+              mountPath: /app/config/glance.yml
               subPath: glance.yml
       volumes:
         - name: glance-config
