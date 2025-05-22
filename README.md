@@ -1,4 +1,4 @@
-# glance-helm
+# glance
 
 This repository contains the Helm chart for deploying [Glance](https://github.com/glanceapp/glance) in a Kubernetes cluster.
 
