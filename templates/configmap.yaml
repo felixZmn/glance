@@ -6,4 +6,4 @@ metadata:
     {{- include "glance.labels" . | nindent 4 }}
 data:
   glance.yml: |
-    {{ .Values.config | nindent 4 }}
+    {{ toYaml .Values.config | nindent 4 }}
