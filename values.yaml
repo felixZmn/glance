@@ -33,7 +33,7 @@ ingress:
         - glance.example.com
 
 # This block is for setting up the application
-config: |
+config:
   pages:
     - name: Home
       columns:
